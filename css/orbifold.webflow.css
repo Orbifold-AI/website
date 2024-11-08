@@ -428,6 +428,7 @@ figcaption {
 .navigation {
   background-color: var(--light-blue-background);
   align-items: center;
+  height: 56px;
   padding: 10px 50px;
   display: flex;
   position: sticky;
@@ -439,8 +440,8 @@ figcaption {
   opacity: .6;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -476,6 +477,8 @@ figcaption {
 
 .navigation-items {
   flex: none;
+  justify-content: flex-start;
+  align-items: flex-start;
   display: flex;
 }
 
@@ -843,7 +846,7 @@ figcaption {
 }
 
 .body {
-  font-family: Open Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .list-item-close {
